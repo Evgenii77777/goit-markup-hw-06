@@ -295,7 +295,7 @@ textarea {
 
 .svg-modal {
   position: absolute;
-  top: 31px;
+  top: 27px;
   left: 15px;
 }
 
@@ -319,6 +319,16 @@ textarea {
   width: 448px;
   text-align-last: left;
   position: relative;
+}
+
+.form-field label {
+  margin-bottom: 4px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+
+  color: var(--primary-text-color);
 }
 
 .form-field input {
@@ -631,7 +641,7 @@ textarea::placeholder {
 
 .svg-clients {
   display: block;
-  fill: var(--primary-text-color);
+  fill: #afb1b8;
 }
 
 .list-wrap {
@@ -824,10 +834,6 @@ textarea::placeholder {
   background: var(--black-fone-color);
 }
 
-.wrap-email {
-  position: relative;
-}
-
 .email-text {
   margin-top: 0;
   margin-bottom: 20px;
@@ -853,6 +859,7 @@ textarea::placeholder {
   text-align: left;
   letter-spacing: 0.06em;
   cursor: pointer;
+  position: relative;
 
   color: var(--white-text-color);
   background: var(--accent-fone-color);
@@ -863,8 +870,8 @@ textarea::placeholder {
 
 .footer-button::after {
   content: "";
-  width: 100%;
-  height: 100%;
+  width: 24px;
+  height: 24px;
   display: block;
   background-image: url(../img/fotografy/icon\ send.svg);
   background-repeat: no-repeat;
@@ -872,7 +879,7 @@ textarea::placeholder {
 
   position: absolute;
   top: 12px;
-  left: 90%;
+  left: 75%;
 }
 
 /* Portfolio */
